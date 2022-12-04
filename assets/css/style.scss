@@ -6,6 +6,11 @@
 .page-header {
     background-color: darkorange;
     background: linear-gradient(120deg, darkorange, blue);
+
+    img {
+        max-width: 100%;
+        width: 800px;
+    }
 }
 
 .main-content {
