@@ -3,13 +3,22 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+    background-color: darkorange;
+    background: linear-gradient(120deg, darkorange, blue);
+}
+
 .main-content {
+    h1, h2, h3, h4, h5, h6 {
+        color: darkorange;
+    }
     
     table {
         display: table;
 
         td {
             text-align: center;
+            width: 50%;
         }
     }
 }
