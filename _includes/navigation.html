@@ -1,4 +1,4 @@
-{% assign id = page.url | split: '/' | last | split: '.' | first %}
+{% assign id = page.url | split: '/' | last | split: '.' | first | plus: 0 %}
 <table>
     <tr>
         <td>

@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    {% assign id = page.url | split: '/' | last | split: '.' | first %}
+    {% assign id = page.url | split: '/' | last | split: '.' | first | plus: 0 %}
     <main id="content" class="main-content" role="main">
       {{ content }}
       {% include navigation.html %}
