@@ -1,0 +1,15 @@
+{% assign id = page.url | split: '/' | last | split: '.' | first %}
+<table>
+    <tr>
+        <td>
+        {% if id > 1 %}
+            <a href="{{ id | minus: 1 }}">Previous Comic</a>
+        {% endif %}
+        </td>
+        <td>
+        {% if id != site.last_comic %}
+            <a href="{{ id | plus: 1 }}">Next Comic</a>
+        {% endif %}
+        </td>
+    </tr>
+</table>

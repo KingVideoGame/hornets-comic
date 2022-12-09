@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% assign id = page.url | split: '/' | last | split: '.' | first %}
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      {% include navigation.html %}
+      <p>
+        <img src="/assets/old-comics/{{ id }}.png" alt="comic">
+      </p>
+      {% include navigation.html %}
+      {% include footer.html %}
+    </main>
+  </body>
+</html>
