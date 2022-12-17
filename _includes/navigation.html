@@ -7,6 +7,9 @@
         {% endif %}
         </td>
         <td>
+            <a href="javascript:location.href=Math.floor(Math.random()*{{ site.last_comic }})+1">Random Comic</a>
+        </td>
+        <td>
         {% if id != site.last_comic %}
             <a href="{{ id | plus: 1 }}">Next Comic</a>
         {% endif %}
