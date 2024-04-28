@@ -1,3 +1,3 @@
-Hornets is a comic about Moe, a kid with a ‘horizontal Mohawk’ trying to get through everyday life, with his friends Tai, Nerdy, Raman, and his siblings, Mylie and Mango. Together, they get into many shenanigans, like digging a hole to China, going on a trip to Hawaii, or getting prepared for summer vacation in their hometown, Yellowjacket City. (New comics 3-5 days a week.)
+Hornets is a webcomic about Moe Wasp, his friends and family, kickball, a comic-in-a-comic named "Krazy Kourt," disasters, wordplay, puns, sarcasm, etc, descriptions, and maybe even a vacation or two. (New comics 2-4 days a week!)
 
 | [First Comic](comics/1) | [Newest Comic](comics/{{ site.last_comic }}) |
