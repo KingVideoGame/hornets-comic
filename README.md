@@ -6,3 +6,5 @@ Hornets is a webcomic about flat-topped, optimistic, kickball extraordinare Moe 
 
 ![In this first comic in the "Aloha!" series, Moe is off to Hawaii! Unfortunately, he gets assigned homework to do during the trip, but Moe has his ways...](assets/comics/4.png)
 
+![Read this epic full-color Sunday comic!](assets/comics/346.png)
+
